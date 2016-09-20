@@ -1,0 +1,7 @@
+version: '2'
+services:
+  broker:
+    image: rabbitmq:latest
+    hostname: rabbitmq
+    ports:
+      - '5672:5672'

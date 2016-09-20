@@ -1,0 +1,22 @@
+{
+  "name": "job-producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.4.2",
+    "bucanero": "git+https://github.com/zorro-del-caribe/bucanero.git",
+    "bucanero-router": "git+https://github.com/zorro-del-caribe/bucanero-router.git",
+    "debug": "^2.2.0",
+    "koa-bodyparser": "^2.2.0",
+    "koa-compress": "^1.0.9"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
